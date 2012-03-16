@@ -1,0 +1,5 @@
+create table sortables(
+id int not null primary key,
+title varchar(200) not null,
+sort_order int(3) not null
+) ENGINE=MYISAM ;
